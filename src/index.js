@@ -9,7 +9,10 @@ import "./styles.css"
 export function App() {
     return (
         <Provider store={Store}>
-
+            <Toggle/>
         </Provider>
-    )
-}
+    );
+};
+
+const rootElement = document.getElementById("root")
+ReactDOM.render(<App />, rootElement);
