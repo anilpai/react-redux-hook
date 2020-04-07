@@ -1,4 +1,6 @@
-export const TOGGLE = "toggle";
+import {
+    TOGGLE
+  } from '../types'
 
 const initialState = {
     toggle: false

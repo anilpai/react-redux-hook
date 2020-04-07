@@ -1,4 +1,4 @@
-import {TOGGLE} from "../reducers/UiReducer"
+import {TOGGLE} from "../types"
 
 export const toggleSwitch =() => dispatch => {
     dispatch({ type: TOGGLE});
