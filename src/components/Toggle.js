@@ -1,6 +1,6 @@
 import React from "react";
 import {useSelector, useDispatch} from "react-redux";
-import { toggleSwitch} from "./actions";
+import { toggleSwitch} from "../actions";
 
 const Toggle = () => {
     const ui = useSelector(state => state.Ui);
