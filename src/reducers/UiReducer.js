@@ -1,10 +1,10 @@
-export const TOGGLE = "ui/toggle";
+export const TOGGLE = "toggle";
 
 const initialState = {
     toggle: false
 }
 
-export default (state=initialState, action) => {
+const UiReducer = (state=initialState, action) => {
     switch(action.type) {
         case TOGGLE: {
             return {
@@ -20,6 +20,4 @@ export default (state=initialState, action) => {
     }
 };
 
-export const toggleSwitch =() => dispatch => {
-    dispatch({ type: TOGGLE});
-};
+export default UiReducer;
