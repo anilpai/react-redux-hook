@@ -1,6 +1,10 @@
 import {TOGGLE, INCREMENT, DECREMENT} from "../types"
 
-export const toggleSwitch =() => dispatch => {
+/*
+ * action creators
+ */
+
+export const toggleSwitch = () => dispatch => {
     dispatch({ type: TOGGLE });
 };
 
